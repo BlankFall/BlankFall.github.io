@@ -1,0 +1,22 @@
+p {
+    color: black;
+    font-size: 50px
+}
+body {
+    background-color: #54ACD2;
+}
+p {
+    font-family: sans-serif;
+    color: white;
+}
+h1 {
+    font-family: monospace;
+    font-size: 60px;
+}
+h2 {
+    font-family: monospace
+}
+.Contact {
+    height: 50px;
+    width: 50px;
+}
