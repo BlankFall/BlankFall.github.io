@@ -20,3 +20,27 @@ h2 {
     height: 50px;
     width: 50px;
 }
+
+.fadechange {
+    height:200px;
+    width:100%;
+    background: #3ba4dc;
+    animation: fading 30s infinite;
+   -webkit-animation: fading 30s infinite;
+}
+
+@keyframes fading {
+    0%   { background: #fa5b4d; }
+    25%  { background: #37A348; }
+    50   { background: #9b59b6; }
+    75%  { background: #3ba4dc; }
+    100% { background: #fa5b4d; }
+}
+
+@-webkit-keyframes fading {
+    0%   { background: #fa5b4d; }
+    25%  { background: #37A348; }
+    50   { background: #9b59b6; }
+    75%  { background: #3ba4dc; }
+    100% { background: #fa5b4d; }
+}
