@@ -5,6 +5,7 @@ p {
 body {
     background-color: #54ACD2;
     display: inherit;
+    margin: auto;
 }
 p {
     font-family: sans-serif;
