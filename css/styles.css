@@ -1,9 +1,18 @@
 p {
     color: black;
-    font-size: 50px
+    font-size: 50px;
 }
 body {
     background-color: #54ACD2;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display: inherit;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-bottom: auto;
 }
 p {
     font-family: sans-serif;
@@ -17,13 +26,12 @@ h2 {
     font-family: monospace
 }
 .Contact {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
 }
 
 .fadechange {
     height:200px;
-    width:100%;
     background: #3ba4dc;
     animation: fading 30s infinite;
    -webkit-animation: fading 30s infinite;
